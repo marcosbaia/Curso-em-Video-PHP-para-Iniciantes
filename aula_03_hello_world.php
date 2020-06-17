@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Aula 03 - Hello World</title>
+		<title>Aula 03 de PHP</title>
         <style>
             h2{
                 color: #80a2ff;
