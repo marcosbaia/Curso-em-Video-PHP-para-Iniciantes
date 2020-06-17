@@ -5,9 +5,16 @@
 		<title>Aula 04 de PHP</title>
 	</head>
 	<body>
-		<h1>Testando PHP</h1>
 		<?php
-			echo "<h2>Olá, <br/> Mundo</h2>";
+            $nome = "Gustavo";
+            $idade = 36;
+            $altura = 1.75;
+
+            echo $nome ." tem ". $idade ." anos e mede " . $altura  ." de altura <br/>";
+
+            $profissao = "professor de computação";
+            $tempo = 10;
+            echo "Ele é $profissao e leciona a mais de $tempo anos";
 		?>
 	</body>
 </html>
