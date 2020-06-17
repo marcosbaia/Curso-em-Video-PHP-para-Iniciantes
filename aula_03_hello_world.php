@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Primeiro Exemplo de PHP</title>
+		<title>Aula 03 - Hello World</title>
         <style>
             h2{
                 color: #80a2ff;
