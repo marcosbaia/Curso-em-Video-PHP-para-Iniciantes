@@ -6,8 +6,8 @@
 	</head>
 	<body>
         <?php
-            $d = isset($_GET["ds"]) ? $_GET["ds"] : 0;
-            switch ($d){
+            $dia = isset($_GET["ds"]) ? $_GET["ds"] : 0;
+            switch ($dia){
                 case 2:
                 case 3:
                 case 4:
