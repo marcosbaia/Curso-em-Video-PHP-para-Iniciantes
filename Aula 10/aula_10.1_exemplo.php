@@ -6,19 +6,19 @@
 	</head>
 	<body>
         <?php
-            $n = isset($_GET["num"]) ? $_GET["num"] : 0;
-            $o = isset($_GET["oper"]) ? $_GET["oper"] : 1;
-            switch($o){
+            $numero = isset($_GET["num"]) ? $_GET["num"] : 0;
+            $operacao = isset($_GET["oper"]) ? $_GET["oper"] : 1;
+            switch($operacao){
                 case 1:
-                    $r = $n * 2;
+                    $resultado = $numero * 2;
                     break;
                 case 2:
-                    $r = $n ^ 3;
+                    $resultado = $numero ^ 3;
                     break;
                 case 3:
-                    $r = sqrt($n); // $n ^ (1/2)   ou   $n ^ (0.5)
+                    $resultado = sqrt($numero); // $n ^ (1/2)   ou   $n ^ (0.5)
             }
-            echo "O resultado da operação solicitada foi <span class='foco'>$r</span>";
+            echo "O resultado da operação solicitada foi <span class='foco'>$resultado</span>";
         ?>
         <a href="aula_10.1_exemplo.html" classe="botao">Voltar</a>
 	</body>
