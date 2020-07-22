@@ -6,8 +6,8 @@
 	</head>
 	<body>
         <?php
-            $uf = isset($_GET["estado"]) ? $_GET["estado"] : 0;
-            switch ($uf){
+            $estado = isset($_GET["estado"]) ? $_GET["estado"] : 0;
+            switch ($estado){
                 case 2:
                 case 3:
                 case 4:
